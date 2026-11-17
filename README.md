@@ -66,6 +66,6 @@ Body, link and muted text meet WCAG AA contrast on both reading surfaces (automa
 
 ## Challenge entry
 
-Prepared for the [Hyper Elements Template Challenge](https://github.com/hyper-elements/hyper-elements/discussions/209). Source publication, required repository star, and discussion submission are separate steps; this package does not claim they have occurred. There is no guaranteed prize or payment.
+Prepared for the [Hyper Elements Template Challenge](https://github.com/hyper-elements/hyper-elements/discussions/209). Full source and screenshots are published here. The official Hyper Elements repository was starred, and the entry was submitted as [discussion #253](https://github.com/hyper-elements/hyper-elements/discussions/253). There is no guaranteed prize or payment.
 
 Original code and prompts: MIT. Museum assets/core metadata: CC0. Font: SIL Open Font License. See `LICENSE` and `ASSETS.md`.
