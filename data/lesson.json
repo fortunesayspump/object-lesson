@@ -1,0 +1,24 @@
+{
+ "slug":"wheat-field",
+ "title":"Wheat Field with Cypresses",
+ "artist":"Vincent van Gogh",
+ "date":"1889",
+ "medium":"Oil on canvas",
+ "dimensions":"73.2 × 93.4 cm",
+ "accession":"1993.132",
+ "collection":"The Metropolitan Museum of Art",
+ "credit":"Purchase, The Annenberg Foundation Gift, 1993",
+ "source":"https://www.metmuseum.org/art/collection/search/436535",
+ "api":"https://collectionapi.metmuseum.org/public/collection/v1/objects/436535",
+ "imageUrl":"https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
+ "imageWidth":599,
+ "imageHeight":477,
+ "isPublicDomain":true,
+ "verified":"2026-11-17",
+ "alt":"A painted landscape with a yellow wheat field, green trees and tall dark cypresses beneath a swirling blue and white sky.",
+ "prompts":[
+  {"title":"Follow a line","question":"Choose one visible brushstroke. Describe its direction, then find another part of the painting where that direction changes."},
+  {"title":"Compare two passages","question":"Compare a small area of sky with a small area of field. Which marks, edges or colors make them feel different to you?"},
+  {"title":"Ask the collection","question":"Write one question that the image alone cannot answer. What kind of source would you consult to investigate it?"}
+ ]
+}

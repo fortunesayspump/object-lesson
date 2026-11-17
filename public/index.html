@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Object Lesson / A closer look</title>
+    <meta
+      name="description"
+      content="One public-domain artwork, four useful ways to learn from it. A source-attributed Hyper Elements template."
+    />
+    <link rel="stylesheet" href="app.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to artwork</a>
+    <header>
+      <a class="brand" href="./">OBJECT<br />LESSON /</a>
+      <p>A collection study kit<br /><span>by Fortune Eze</span></p>
+      <a
+        class="source-top"
+        href="https://www.metmuseum.org/art/collection/search/436535"
+        >The museum record</a
+      >
+    </header>
+    <main id="main">
+      <section class="toolbar" aria-label="Choose a format">
+        <div>
+          <p class="kicker">ONE OBJECT / FOUR FORMATS</p>
+          <h1>Start with a closer look.</h1>
+        </div>
+        <nav aria-label="Output format">
+          <button data-mode="study" aria-pressed="true">Study view</button
+          ><button data-mode="email" aria-pressed="false">Educator email</button
+          ><button data-mode="worksheet" aria-pressed="false">
+            Print worksheet</button
+          ><button data-mode="card" aria-pressed="false">
+            Collection card
+          </button>
+        </nav>
+      </section>
+      <div class="format-note">
+        <p id="description">
+          An image-first study page, rendered with Hyper Elements Page.
+        </p>
+        <a id="download" href="study.html" download>Download study HTML</a>
+      </div>
+      <section class="art-view" aria-label="Rendered learning resource">
+        <iframe
+          id="preview"
+          src="study.html"
+          title="Artwork study page"
+        ></iframe
+        ><img
+          id="card"
+          src="collection-card.png"
+          alt="Collection card showing Wheat Field with Cypresses and its museum metadata"
+          hidden
+        />
+      </section>
+      <div class="actions">
+        <button id="inspect">Inspect full-resolution artwork</button
+        ><a href="record.json" download>Download source record</a
+        ><a href="email.txt" download>Email plain-text alternative</a>
+        <p id="status" role="status">
+          No email has been sent. No learner data is collected.
+        </p>
+      </div>
+      <section class="notebook">
+        <div>
+          <p class="kicker">YOUR OWN OBSERVATIONS</p>
+          <h2>Leave room for<br />your response.</h2>
+          <p>
+            Use this space while you look. Notes stay in this tab only, and
+            disappear on reload. Download them if you want to keep them.
+          </p>
+        </div>
+        <div class="writing">
+          <label for="notes"
+            >Looking notes
+            <span>Do not include names or personal information.</span></label
+          ><textarea
+            id="notes"
+            maxlength="4000"
+            placeholder="Choose a detail. Describe what you can see before interpreting it."
+          ></textarea>
+          <div>
+            <button id="save-notes">Download my notes</button
+            ><button id="clear-notes">Clear notes</button
+            ><span id="count">0 / 4000</span>
+          </div>
+          <p id="note-status" role="status"></p>
+        </div>
+      </section>
+      <footer>
+        <div>
+          <strong
+            >Art is the source.<br />Questions are the starting point.</strong
+          >
+          <p>Original prompts. Verified metadata. Unfilled responses.</p>
+        </div>
+        <p>
+          Artwork &amp; metadata: The Met Open Access / CC0.<br />Independent
+          educational template, not a museum publication.<br /><a
+            href="https://www.metmuseum.org/policies/image-resources"
+            >Image rights</a
+          >
+          ·
+          <a href="https://github.com/hyper-elements/hyper-elements"
+            >Hyper Elements</a
+          >
+        </p>
+      </footer>
+    </main>
+    <dialog id="viewer" aria-labelledby="viewer-title">
+      <div class="viewer-top">
+        <h2 id="viewer-title">Wheat Field with Cypresses</h2>
+        <button id="close-viewer">Close</button>
+      </div>
+      <div class="zoom-control">
+        <label for="zoom">Image scale</label
+        ><input
+          id="zoom"
+          type="range"
+          min="100"
+          max="250"
+          step="25"
+          value="100"
+        /><output id="zoom-value" for="zoom">100%</output>
+        <p>Scroll within the image to inspect details.</p>
+      </div>
+      <div class="zoom-area">
+        <img
+          id="full-art"
+          src="assets/artwork-original.jpg"
+          alt="Full-resolution museum photograph of Wheat Field with Cypresses, a yellow field, green cypresses and swirling blue-white sky"
+        />
+      </div>
+      <p class="rights">
+        The Met Open Access / CC0. Original image, uncropped and unaltered.
+      </p>
+    </dialog>
+  </body>
+</html>
